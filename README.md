@@ -4,6 +4,13 @@
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+<h2 align="center">Links</h2>
+
+- Solution URL: [Profile Card Component (SASS + Flexbox) | Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-sass-flexbox-7cj7s_CvT0)
+- Live Site URL: [https://profile-card-component-melvinaguilar.vercel.app/](https://profile-card-component-melvinaguilar.vercel.app/)
+
+<br>
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,8 +19,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
