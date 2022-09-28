@@ -1,0 +1,85 @@
+.card {
+    box-shadow: $theme-box-shadow;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: $theme-transition;
+    background-color: $theme-white-color;
+}
+
+.profile {
+    max-width: 21.875rem;
+    width: 100%;
+    
+    &__header {
+        @include flex;
+        padding: 5.469rem 2rem 1.45rem 2rem;
+        position: relative;
+        color: $theme-dark-grayish-blue-color;
+
+        &::before {
+            transition: $theme-transition;
+
+            content: '';
+            background: url(../images/bg-pattern-card.svg) no-repeat;
+            @include size(21.875rem, 8.75rem); // 350x140 pixels to rems
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+    }
+
+    &__image {
+        @include size(6.563rem);
+        border-radius: 50%;
+        border: 0.313rem solid $theme-white-color;
+        z-index: 2;
+    }
+
+    &__identification {
+        margin: 1.25rem 0.25rem 0.45rem 0;
+        @include flex(row);
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    &__name {
+        letter-spacing: 0.03rem;
+        color: $theme-dark-blue-color;
+    }
+
+    &__age {
+        font-size: 1.125rem;
+    }
+}
+
+.profile__stats {
+    @include flex(row, space-around, center);
+    flex-wrap: wrap;
+    padding: 1.5rem 1.35rem;
+    border-bottom: 0.063rem solid $theme-gray-color;
+    text-align: center;
+
+    .stat__number {
+       color: $theme-dark-color;
+    }
+
+    .stat__label {
+        font-size: 0.725rem;
+        letter-spacing: 0.131rem;
+        color: $theme-dark-grayish-blue-color;
+    }
+}
+
+// Resolve the sticky hover effect, this is @media (hover: hover) { ... }
+@include media-hover-effect() {
+    .card:hover {
+        box-shadow: $theme-box-shadow-hover;
+        transform: scale(1.01);
+    }
+    
+    .profile:hover .profile__header::before {
+        opacity: 0.8;
+    }
+}

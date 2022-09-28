@@ -1,0 +1,21 @@
+body {
+    font-family: $theme-text-font;
+    font-size: 0.813rem;
+    color: $theme-dark-blue-color;
+
+    @include flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+
+    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: $theme-background-color;
+}
+
+@include media-breakpoint-up($screen-rwd) {
+    body {
+        background-position: right 66vw bottom 53vh, left 71vw top 65vh
+    }  
+}
