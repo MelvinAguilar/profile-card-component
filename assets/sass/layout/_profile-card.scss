@@ -76,7 +76,6 @@
 @include media-hover-effect() {
     .card:hover {
         box-shadow: $theme-box-shadow-hover;
-        transform: scale(1.01);
     }
     
     .profile:hover .profile__header::before {

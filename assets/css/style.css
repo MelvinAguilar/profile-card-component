@@ -180,7 +180,6 @@ body {
 @media (hover: hover) {
   .card:hover {
     box-shadow: 0 0.875rem 1.75rem rgba(45, 50, 72, 0.25), 0 0.625rem 0.625rem rgba(45, 50, 72, 0.22);
-    transform: scale(1.01);
   }
   .profile:hover .profile__header::before {
     opacity: 0.8;
