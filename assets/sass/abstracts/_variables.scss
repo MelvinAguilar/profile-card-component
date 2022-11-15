@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
 
 // Font Family
 $theme-text-font: "Kumbh Sans", sans-serif;
@@ -20,12 +20,12 @@ $theme-line-height: 1rem;
 $theme-transition: all 0.2s ease-in-out;
 
 // Breakpoints
-$screen-sm: 576px; // Large smartphones
-$screen-md: 768px; // Small tablets
-$screen-lg: 992px; // Tablets
-$screen-xl: 1200px; // Desktops
-$screen-xxl: 1440px; // Large desktops
-$screen-rwd: 1500px; // Custom device
+$screen-sm: 36em;       //576px Large smartphones
+$screen-md: 48em;       //768px Small tablets
+$screen-lg: 62em;       //992px Tablets
+$screen-xl: 75em;       //1200px Desktops
+$screen-xxl: 90em;      //1440px; Large desktops
+$screen-rwd: 93.75em;   //1500px; Custom device
 
 // Border shadow
 $theme-box-shadow: 0 0.063rem 0.188rem rgba($theme-dark-blue-color, 0.12),

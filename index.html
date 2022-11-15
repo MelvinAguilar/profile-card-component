@@ -13,29 +13,31 @@
 <body>
     <main class="card profile">
         <h1 class="sr-only">Profile Card of Victor Crest</h1>
-        <header class="profile__header">
+        <div class="profile__header">
             <img src="./assets/images/image-victor.jpg" alt="Victor Crest" class="profile__image">
             <div class="profile__identification">
                 <h2 class="profile__name">Victor Crest</h2>
                 <p class="profile__age">26</p>
             </div>
             <p class="profile__location">London</p>
-        </header>
-        <section class="profile__stats">
+        </div>
+        <div>
             <h2 class="sr-only">Profile Statistics</h2>
-            <article class="stat">
-                <h3 class="stat__number">80K</h3>
-                <p class="stat__label">Followers</p>
-            </article>
-            <article class="stat">
-                <h3 class="stat__number">803K</h3>
-                <p class="stat__label">Likes</p>
-            </article>
-            <article class="stat">
-                <h3 class="stat__number">1.4K</h3>
-                <p class="stat__label">Photos</p>
-            </article>   
-        </section>
+            <ul class="profile__stats">
+                <li class="profile__stat">
+                    <span class="profile__stat-number">80K</span>
+                    <p class="profile__stat-label">Followers</p>
+                </li>
+                <li class="profile__stat">
+                    <span class="profile__stat-number">803K</span>
+                    <p class="profile__stat-label">Likes</p>
+                </li>
+                <li class="profile__stat">
+                    <span class="profile__stat-number">1.4K</span>
+                    <p class="profile__stat-label">Photos</p>
+                </li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>
